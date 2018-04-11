@@ -1,0 +1,35 @@
+body{
+    background: #efefef;
+    margin: 0px;
+}
+#graph
+{
+    position:relative;
+    width:660px;
+    height:266px;
+    margin:8px;
+    padding:0;	
+}
+#graph ul
+{
+    position:absolute;
+    top:0;
+    left:32px;
+    width:600px;
+    height:252px;
+    border-left:1px solid black;
+    border-bottom:1px solid black;	
+}
+#graph li
+{
+   position:absolute;	
+   list-style:none;
+   background:lightblue;
+   width:40px;
+   text-align:center;
+   border:1px solid black;
+   visibility: hidden;
+}
+#sec1, #sec2, #sec3, #sec4{
+    text-align: center;
+}
